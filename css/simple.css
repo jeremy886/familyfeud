@@ -1,0 +1,70 @@
+
+body{
+    width: 85%;
+    margin: 0 auto;
+    background: url("../images/floor.jpg");
+
+}
+.banner {
+    width: 100%;
+    height: 20vh;
+    background-color: gold;
+    background-position: center;
+    background-image: url("../images/FamilyFeudLogo.png");
+    background-repeat: no-repeat;
+    background-size: 75vw 20vh;
+
+}
+
+
+.question {
+    margin: 1%;
+    background-color: cadetblue;
+    font-size: 24pt;
+    font-family: "Comic Sans MS";
+}
+
+.answer{
+    width: 80%;
+    height: 12%;
+    border: 5px solid gold;
+    padding: 5px;
+    color:gainsboro;
+    font-size: 20pt;
+    background-color: brown;
+    display: inline-block;
+    transition: color 2s;
+}
+
+section {
+    margin: 0 auto;
+    background: rgba(150, 111, 51, .8);
+    height: 45vh;
+    -webkit-column-count: 2;
+    column-count: 2;
+    column-gap: 10%;
+    
+}
+
+footer{
+    margin: 5%;
+    border: medium dotted black;
+}
+
+footer img {
+    width: 10%;
+    margin: 5px;
+    transition: transform ease-out 2s;
+}
+
+footer img:hover {
+    transform: scale(2);
+}
+
+section .answer:active {
+    text-decoration: none;
+    color:orangered;
+    opacity: 1.0;
+    background-color: brown;
+    
+}
