@@ -57,9 +57,11 @@ footer img {
     transition: transform ease-out 2s;
 }
 
+/*
 footer img:hover {
     transform: scale(2);
-}
+} 
+*/
 
 section .answer:active {
     text-decoration: none;
