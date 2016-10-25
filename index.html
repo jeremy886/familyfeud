@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
+<!--This is a comment. Comments are not displayed in the browser so you can put anything for youreself to read here.
+-->
 <head>
+<meta charset="utf-8">
 <title>Family Feud</title>
 <link rel="stylesheet" href="css/simple.css">
 </head>
@@ -10,19 +13,21 @@
         <div class="question">What is the favourite smart phone game for high school students?</div>
     </header>
     <section>
-        <div id="answer01" class="answer" onclick="tile01()">???</div>
-        <div class="answer">Clash of clans - 20% </div>
-        <div class="answer">Clash Royale - 15 %</div>
-        <div class="answer">Minecraft - 8%</div>
-        <div class="answer">Terraria - 5%</div>
-        <div class="answer">Heads Up! - 3%</div>
-        <div class="answer">Mario Bro - 1%</div>
-        <div class="answer">KingKang - 1%</div>
-        <div class="answer">Snake - 1%</div>
-        <div class="answer">Minesweeper - 1%</div>
+        <div id="answer01" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer02" class="answer" onclick="showAnswer(this.id)">??? </div>
+        <div id="answer03" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer04" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer05" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer06" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer07" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer08" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer09" class="answer" onclick="showAnswer(this.id)">???</div>
+        <div id="answer10" class="answer" onclick="showAnswer(this.id)">???</div>
     </section>
     <footer>
-        <img src="images/red_x.svg"><img src="images/red_x.svg"><img src="images/red_x.svg">
+        <img src="images/red_x.svg" id="error1" onclick="showCross(this.id)">
+        <img src="images/red_x.svg" id="error2" onclick="showCross(this.id)">
+        <img src="images/red_x.svg" id="error3" onclick="showCross(this.id)">
          <script src="js/familyfeud.js"></script> 
     </footer>
 </body>
